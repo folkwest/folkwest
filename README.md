@@ -15,18 +15,20 @@ This GitHub serves as a space to document my learning, experiments, and end-to-e
 
 ## Current Projects
 
-### 📚 Semantic Book Recommender
-A recommendation system that goes beyond keyword matching by leveraging **semantic embeddings** to understand user intent and content similarity.
+### 🤟 Real-Time ASL Translator
+A real-time American Sign Language (ASL) translation system that uses computer vision and hand tracking to recognize signed letters and convert them into text.
 
 **Key ideas & features:**
-- Uses embedding-based similarity to recommend books by meaning, not just keywords  
-- Supports flexible, natural-language user queries  
-- Focuses on explainability (why a book was recommended)  
-- Designed as a modular ML pipeline (data → embeddings → retrieval → ranking)
+- Real-time hand detection and landmark tracking using MediaPipe
+- Multiple implementations (web-based, rule-based, and ML-powered) to explore different design tradeoffs
+- Rule-based gesture recognition for interpretable, geometry-driven classification
+- Neural network–based models (TensorFlow / PyTorch) for improved accuracy and scalability
+- End-to-end ML pipeline including data collection, preprocessing, training, and inference
+- Low-latency, live translation with extensible support for custom datasets and new signs
 
-This project explores how representation learning can improve traditional recommender systems while remaining interpretable and user-focused.
+This project explores the intersection of computer vision, human–computer interaction, and machine learning, with a focus on accessibility, real-time systems, and comparing symbolic versus learned approaches to perception.
 
----
+--- 
 
 ### 🤖 Retrieval-Augmented Generation (RAG) Chatbot
 An end-to-end RAG chatbot designed to answer questions grounded in a specific document corpus rather than relying solely on model memory.
@@ -39,6 +41,19 @@ An end-to-end RAG chatbot designed to answer questions grounded in a specific do
 - Emphasis on evaluation, citation, and reliability
 
 This project reflects my interest in **trustworthy LLM applications**, particularly in how retrieval, prompting, and evaluation can be combined to improve factual accuracy.
+
+--- 
+
+### 📚 Semantic Book Recommender
+A recommendation system that goes beyond keyword matching by leveraging **semantic embeddings** to understand user intent and content similarity.
+
+**Key ideas & features:**
+- Uses embedding-based similarity to recommend books by meaning, not just keywords  
+- Supports flexible, natural-language user queries  
+- Focuses on explainability (why a book was recommended)  
+- Designed as a modular ML pipeline (data → embeddings → retrieval → ranking)
+
+This project explores how representation learning can improve traditional recommender systems while remaining interpretable and user-focused.
 
 ---
 
